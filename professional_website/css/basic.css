@@ -1,0 +1,137 @@
+body{
+    font-family: Myriad Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+p.font {
+    font-size: 13px;
+}
+
+.front_bg {
+    background-image: url("../imgs/home_page_bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.main-content {
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.left-content {
+    padding: 10px;
+    font-size: 10px;
+    flex: 1;
+}
+
+.right-content {
+    padding: 10px;
+    font-size: 10px;
+    flex: 1;
+}
+
+.header-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    width: 80%;
+}
+
+.footer-flex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-self: center;
+    font-size: 8px;
+    width: 80%;
+}
+.items {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.page-flex {
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+}
+
+header {
+    position: absolute;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    top: 0;  
+    font-size: 13px;
+}
+
+.padding {
+    padding: 0 .25rem 0 .25rem;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.project-img {
+    border: .5px;
+    max-width: 85%;
+    max-height: 85%;
+}
+
+.footer-img {
+    display: flex;
+    max-height: 16px;
+    padding: 8px;
+}
+
+image-box {
+    display: flex;
+    max-height: 16px;
+    position: absolute;
+    padding: 8px;
+}
+
+/* These are for the logos in the footer */
+.grey {
+    filter: grayscale(1);
+}
+
+.grey:hover {
+    opacity: 0;
+    color: white;
+}
+
+.color {
+    position: absolute;
+    opacity: 0;
+}
+
+.color:hover {
+    opacity: 1;
+}
