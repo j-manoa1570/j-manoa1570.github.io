@@ -16,12 +16,7 @@ p.font {
     background-size: cover;
 }
 
-a:link {
-    text-decoration: none;
-    color: blue;
-}
-
-a:visited {
+a:link, a:visited {
     text-decoration: none;
     color: blue;
 }
@@ -40,15 +35,9 @@ a:visited {
     text-align: center;
 }
 
-.left-content {
+.left-content, .right-content {
     padding: 10px;
-    font-size: 10px;
-    flex: 1;
-}
-
-.right-content {
-    padding: 10px;
-    font-size: 10px;
+    font-size: 12px;
     flex: 1;
 }
 
