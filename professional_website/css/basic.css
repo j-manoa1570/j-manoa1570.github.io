@@ -69,13 +69,13 @@ a:link, a:visited {
     margin-top: 50px;
 }
 
-header {
+/* header {
     position: absolute;
     margin: 0 -9999rem;
     padding: 0.25rem 9999rem;
     top: 0;  
     font-size: 13px;
-}
+} */
 
 .padding {
     padding: 0 .25rem 0 .25rem;
