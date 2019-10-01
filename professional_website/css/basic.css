@@ -7,14 +7,10 @@ p.font {
     font-size: 13px;
 }
 
-.front_bg {
-    background-image: url("../imgs/home_page_bg.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* h3.cardfont {
+    padding: 50px;
+    margin: 50px;
+} */
 
 a:link, a:visited {
     text-decoration: none;
@@ -33,12 +29,6 @@ a:link, a:visited {
     width: 60%;
     margin: auto;
     text-align: center;
-}
-
-.left-content, .right-content {
-    padding: 10px;
-    font-size: 12px;
-    flex: 1;
 }
 
 .header-flex {
@@ -69,13 +59,15 @@ a:link, a:visited {
     margin-top: 50px;
 }
 
-/* header {
-    position: absolute;
-    margin: 0 -9999rem;
-    padding: 0.25rem 9999rem;
-    top: 0;  
-    font-size: 13px;
-} */
+.projectCard {
+    width: 300px;
+    height: 400px;
+    background-color: tan;
+    border-radius: 10px;
+    border: 2px solid  black;
+    margin: 10px;
+    padding: 5px;
+}
 
 .padding {
     padding: 0 .25rem 0 .25rem;

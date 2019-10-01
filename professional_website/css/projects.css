@@ -1,0 +1,11 @@
+.left-content, .right-content {
+   padding: 10px;
+   font-size: 12px;
+   flex: 1;
+}
+
+.project-img {
+   border: .5px;
+   max-width: 85%;
+   max-height: 85%;
+}
