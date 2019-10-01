@@ -5,11 +5,105 @@
         <title>Projects</title>
     </head>
     <body>
-        <div>
-            <p>This will be a home page for projects.</p>
-            <p><a href="ecen361_project.html">Car Party</a></p>
-            <p><a href="senior_project.html">Senior Project</a></p>
-            <p><a href="machine.html">Machine</a></p>
+        
+        <div class="page-flex">
+
+        <!-- Flex box for all page content -->
+        <div class="main-container">
+
+            <div class="main-content">
+                <div class="about-me">
+                    <h2>Jonathan Manoa</h2>
+                    <p class="font">Recent Computer Science graduate.</p>
+                    <p class="font">
+                        Skills include HTML, CSS, PHP, C, C++, Python, Java, Swift.
+                        Learning ReactJS, Node.js, Spring.
+                    </p>
+                    <p class="font">Interests include IoT, embedded systems, automation</p>
+                    <p class="font">Some of the projects that I have worked on are as follows:</p>
+                </div>
+                <div class="projects" id="Personal-Concert">
+                    <div class="left-content">
+                        <h3>Automated API to connect SignalVine</h3>
+                        <p>
+                            For my internship, I was a Software Engineer for Through The Maze (Logan UT).
+                            I designed, developed, and implemented a web API that would specifically
+                            automated the update of records to SignalVine. Also implemented all other
+                            functionality that SignalVine's API normally allowed for such as program
+                            enrollment, text messages, etc. The importance for this was to take the raw
+                            data from the company's website's database and send it to SignalVine. The 
+                            API is what formatted that data into a properly formed signature that 
+                            SignaVine would accept. The API can be found on my github <a href="">here</a>.
+                        </p>
+                        <p>
+                            In addition to the API, I also redid their backend to include things such as 
+                            checking for duplicates, form REGEX validation, validation of forms prior to
+                            submission, and database updates for multiple submissions and for API returns.
+                            While my focus was primarily back end, some front end was done using Wix(the 
+                            company's hosting and website building tool).
+                        </p>
+                    </div>
+                    <div class="right-content">
+                        <img class="project-img" src="">
+                    </div>
+                </div><div class="projects" id="Personal-Concert">
+                    <div class="left-content">
+                        <img class="project-img" src="imgs/personal_concert.png">
+                    </div>
+                    <div class="right-content">
+                        <h3>Personal Concert</h3>
+                        <p>
+                            The idea that we (Jason Chio, Colby Robbins, and I) had was that we
+                            wanted to build a dynamic LED lighting system that could be installed
+                            into a car that will change according to music coming off the amp.
+                            The main hardware that was used was an Arduino Pro Mini and a custom
+                            built low band filter module. Additionally, we had a Bluetooth module
+                            to connect to so that the lighting system could be controlled by
+                            Bluetooth via Mobile device however, due to time constraints for the
+                            class, we did not implement it at that time. Project video can be found
+                            <a href="https://youtu.be/610oPO6CUys">here</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects" id="Machine">
+                    <div class="left-content">
+                        <h3>Machine</h3>
+                        <p>
+                            Machine is a collaborative tool that has an IM service and integrates
+                            tools such as Trello, github, file management, and other tools that
+                            are useful tools for teams. The original idea came from a project for my
+                            Web Engineering II (back end development). At that time, I didn't see
+                            any options like this available for Slack (2017) but have found since
+                            then that Slack has integrated these essential development team tools.
+                        </p>
+                        <p>
+                            I decided upon the name through inspiration from one of my favorite
+                            albums, Pink Floyd's "Wish You Were Here." I am unsure at this point if
+                            I want to pursue further development of this project.
+                        </p>
+                    </div>
+                    <div class="right-content">
+                        <!-- <img class="project-img" src="http://www.mov37.com/wp-content/uploads/2018/04/Pink-Floyd.jpg"> -->
+                    </div>
+                </div>
+                <div class="projects" id="Senior-Project">
+                    <div class="left-content">
+                        <img class="project-img">
+                    </div>
+                    <div class="right-content">
+                        <h3>Senior Project</h3>
+                        <p>
+                            I had an idea when I was working as a lighting technician of having a 
+                            wireless solution for running DMX fixtures for setups that could use
+                            static lighting. This idea that I had was then turned into a reality
+                            when it came time to do my senior project. I built a wireless DMX 
+                            controller using an Arduino with a BLE module and an iPad. More details
+                            can be found <a href="https://islandthunderblog.wordpress.com/2018/10/05/senior-project-pt-1/">here</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </body>
 
