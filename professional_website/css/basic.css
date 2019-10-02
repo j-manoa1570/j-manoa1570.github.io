@@ -7,14 +7,20 @@ p.font {
     font-size: 13px;
 }
 
-/* h3.cardfont {
-    padding: 50px;
-    margin: 50px;
-} */
-
-a:link, a:visited {
-    text-decoration: none;
+p a:link, p a:visited {
     color: blue;
+}
+
+a:link div, a:visited div {
+    color: black;
+}
+
+a:hover div {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
 }
 
 .main-container {
@@ -62,7 +68,7 @@ a:link, a:visited {
 .projectCard {
     width: 300px;
     height: 400px;
-    background-color: tan;
+    background-color: lightblue;
     border-radius: 10px;
     border: 2px solid  black;
     margin: 10px;
@@ -88,7 +94,6 @@ a:link, a:visited {
 .footer-img {
     display: flex;
     max-height: 16px;
-    padding: 8px;
 }
 
 image-box {
@@ -99,20 +104,12 @@ image-box {
 }
 
 /* These are for the logos in the footer */
-.grey {
-    filter: grayscale(1);
-}
-
-.grey:hover {
-    opacity: 0;
-    color: white;
-}
 
 .color {
-    position: absolute;
-    opacity: 0;
+    filter: grayscale(1);
 }
 
 .color:hover {
     opacity: 1;
+    filter: grayscale(0);
 }
